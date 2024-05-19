@@ -1,0 +1,434 @@
+
+[
+    {
+      "name": "Sweet Potato & Beef Burgers",
+      "ingredients": [
+        { "ingredient": "Sweet Potatoes", "2 Person": 2, "4 Person": 4, "Allergens": null },
+        { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+        { "ingredient": "Ginger", "2 Person": "1 Thumb", "4 Person": "2 Thumbs", "Allergens": null },
+        { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+        { "ingredient": "Mayonnaise", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Eggs" },
+        { "ingredient": "Soy Sauce", "2 Person": "2 TBSP", "4 Person": "2 TBSP", "Allergens": "Soy, Wheat" },
+        { "ingredient": "Ground Beef", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+        { "ingredient": "Potato Buns", "2 Person": 2, "4 Person": 4, "Allergens": "Soy, Wheat" },
+        { "ingredient": "Sweet Thai Chili Sauce", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+        { "ingredient": "Crispy Fried Onions", "2 Person": 1, "4 Person": 2, "Allergens": "Wheat" }
+      ]
+    }
+    ,
+        {
+            "name": "Spicy Peruvian Chicken",
+            "ingredients": [
+                { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
+                { "ingredient": "Garlic", "2 Person": "2 Cloves", "4 Person": "4 Cloves", "Allergens": null },
+                { "ingredient": "Jalapeno", "2 Person": 1, "4 Person": 1, "Allergens": null },
+                { "ingredient": "Lime", "2 Person": 1, "4 Person": 2, "Allergens": null },
+                { "ingredient": "Tomato", "2 Person": 1, "4 Person": 2, "Allergens": null },
+                { "ingredient": "Fajita Spice Blend", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+                { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+                { "ingredient": "Jasmine Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+                { "ingredient": "Chicken Cutlets", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+                { "ingredient": "Mayonnaise", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Eggs" },
+                { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
+            ]
+        }
+    ,
+    {
+        "name": "Big Island Pork Burgers with Pineapple",
+        "ingredients": [
+            { "ingredient": "Pineapple", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Cilantro", "2 Person": "1/4 oz", "4 Person": "1/2 oz", "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Panko Breadcrumbs", "2 Person": "1/4 Cup", "4 Person": "1/2 Cup", "Allergens": "Wheat" },
+            { "ingredient": "Coleslaw Mix", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Mayonnaise", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Sriracha", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Brioche Buns", "2 Person": 2, "4 Person": 4, "Allergens": "Wheat" }
+        ]
+    }
+    ,
+    {
+        "name": "Hoisin Sweet Potato & Mushroom Bowls",
+        "ingredients": [
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Ginger", "2 Person": "1 Thumb", "4 Person": "2 Thumbs", "Allergens": null },
+            { "ingredient": "Sweet Potato", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Cremini Mushrooms", "2 Person": "8 oz", "4 Person": "16 oz", "Allergens": null },
+            { "ingredient": "Bell Pepper", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Jasmine Rice", "2 Person": "3/4 Cup", "4 Person": "1 1/2 Cups", "Allergens": null },
+            { "ingredient": "Hoisin Sauce", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Soy, Wheat" },
+            { "ingredient": "Mayonnaise", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Soy Sauce", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Soy, Wheat" },
+            { "ingredient": "Sriracha", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": "Sesame" }
+        ]
+    }
+    ,
+    
+        {
+            "name": "Szechuan Pork Noodle Stir-Fry",
+            "ingredients": [
+                { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+                { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
+                { "ingredient": "Carrot", "2 Person": "3 oz", "4 Person": "6 oz", "Allergens": null },
+                { "ingredient": "Peanuts", "2 Person": "1/2 oz", "4 Person": "1 oz", "Allergens": "Peanuts" },
+                { "ingredient": "Sweet Soy Glaze", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Sesame, Soy, Wheat" },
+                { "ingredient": "Pork Ramen Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
+                { "ingredient": "Szechuan Paste", "2 Person": "2 TBSP", "4 Person": "2 TBSP", "Allergens": "Sesame, Soy, Wheat" },
+                { "ingredient": "White Wine Vinegar", "2 Person": "5 tsp", "4 Person": "5 tsp", "Allergens": null },
+                { "ingredient": "Peanut Butter", "2 Person": "1.15 oz", "4 Person": "1.15 oz", "Allergens": "Peanuts" },
+                { "ingredient": "Chili Flakes", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null },
+                { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+                { "ingredient": "Ramen Noodles", "2 Person": "4.5 oz", "4 Person": "9 oz", "Allergens": "Wheat" }
+            ]
+        }
+    ,
+    {
+        "name": "Crunchy Curried Chickpea Bowls",
+        "ingredients": [
+            { "ingredient": "Chickpeas", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Carrot", "2 Person": "3 oz", "4 Person": "6 oz", "Allergens": null },
+            { "ingredient": "Lemon", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Kale", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Golden Raisins", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+            { "ingredient": "Curry Powder", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Basmati Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Veggie Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Shredded Red Cabbage", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "4 1/2 TBSP", "4 Person": "9 TBSP", "Allergens": "Milk" }
+        ]
+    }
+    ,
+    {
+        "name": "One-Pan Sesame Pork Sloppy Joes",
+        "ingredients": [
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+            { "ingredient": "Cucumber", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Tomato", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Umami Ginger Sauce", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": "Soy, Wheat" },
+            { "ingredient": "Ketchup", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Sriracha", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": "Sesame" },
+            { "ingredient": "Rice Wine Vinegar", "2 Person": "5 tsp", "4 Person": "10 tsp", "Allergens": null },
+            { "ingredient": "Potato Buns", "2 Person": 2, "4 Person": 4, "Allergens": "Eggs, Milk, Soy, Wheat" }
+        ]
+    },
+    {
+        "name": "Sweet Chili-Lime Glazed Pork Chops",
+        "ingredients": [
+            { "ingredient": "Sweet Potatoes", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Carrots", "2 Person": "9 oz", "4 Person": "18 oz", "Allergens": null },
+            { "ingredient": "Red Onion", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Garlic Powder", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Pork Chops", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Hoisin Sauce", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Soy, Wheat" },
+            { "ingredient": "Sweet Thai Chili Sauce", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+            { "ingredient": "Sweet Soy Glaze", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Sesame, Soy, Wheat" },
+            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": "Sesame" }
+        ]
+    }
+    ,
+    {
+        "name": "Spicy Coconut Curry Pork Noodle Soup",
+        "ingredients": [
+            { "ingredient": "Chili Pepper", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Bok Choy & Napa Cabbage", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Garlic Powder", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Pork Ramen Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Veggie Pho Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Curry Powder", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Ramen Noodles", "2 Person": "4.5 oz", "4 Person": "9 oz", "Allergens": "Wheat" },
+            { "ingredient": "Coconut Milk", "2 Person": 1, "4 Person": 2, "Allergens": "Tree Nuts" }
+        ]
+    },
+    {
+        "name": "One-Pan Blackened Fish Tacos",
+        "ingredients": [
+            { "ingredient": "Cilantro", "2 Person": "1/4 oz", "4 Person": "1/2 oz", "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Mayonnaise", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Blackening Spice", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Coleslaw Mix", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Barramundi", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": "Fish" },
+            { "ingredient": "Flour Tortillas", "2 Person": 6, "4 Person": 12, "Allergens": "Soy, Wheat" }
+        ]
+    },
+    {
+        "name": "Apricot, Almond & Chickpea Tagine with Chicken",
+        "ingredients": [
+            { "ingredient": "Onion", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Parsley", "2 Person": "1/4 oz", "4 Person": "1/4 oz", "Allergens": null },
+            { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+            { "ingredient": "Lemon", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Jalapeño", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Zucchini", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Chickpeas", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Basmati Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Veggie Stock Concentrates", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "3 TBSP", "4 Person": "6 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Tunisian Spice Blend", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Sliced Almonds", "2 Person": "1/2 oz", "4 Person": "1 oz", "Allergens": "Tree Nuts" },
+            { "ingredient": "Dried Apricots", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+            { "ingredient": "Hot Sauce", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null },
+            { "ingredient": "Chopped Chicken Breast", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": "Meat" }
+        ]
+    }
+    ,
+    {
+        "name": "Honey-Miso Sweet Potato & 'Shroom Jumble with Shrimp",
+        "ingredients": [
+            { "ingredient": "Miso Sauce Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": "Soy" },
+            { "ingredient": "Red Onion", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Button Mushrooms", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "1 TBSP", "Allergens": "Sesame" },
+            { "ingredient": "Jasmine Rice", "2 Person": "3/4 Cup", "4 Person": "1 1/2 Cups", "Allergens": null },
+            { "ingredient": "Honey", "2 Person": "2 tsp", "4 Person": "4 tsp", "Allergens": null },
+            { "ingredient": "Mayonnaise", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Sweet Thai Chili Sauce", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+            { "ingredient": "Fry Seasoning", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Zucchini", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Sweet Potato", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Ginger", "2 Person": "1 Thumb", "4 Person": "1 Thumb", "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Shrimp", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": "Meat" }
+        ]
+    }
+    ,
+    {
+        "name": "One-Pot Spicy Vegan Curry Stiry-Fry",
+        "ingredients": [
+            { "ingredient": "Bell Pepper", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Button Mushrooms", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Cilantro", "2 Person": "1/4 oz", "4 Person": "1/4 oz", "Allergens": null },
+            { "ingredient": "Peanuts", "2 Person": "1/2 oz", "4 Person": "1 oz", "Allergens": "Peanuts" },
+            { "ingredient": "Ramen Noodles", "2 Person": "4.5 oz", "4 Person": "9 oz", "Allergens": "Wheat" },
+            { "ingredient": "Coconut Milk", "2 Person": 1, "4 Person": 2, "Allergens": "Tree Nuts" },
+            { "ingredient": "Curry Powder", "2 Person": "1 TBSP", "4 Person": "1 TBSP", "Allergens": null },
+            { "ingredient": "Veggie Pho Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Sweet Thai Chili Sauce", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null }
+        ]
+    },
+    {
+        "name": "Bulgogi Pork Filet",
+        "ingredients": [
+            { "ingredient": "Carrots", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Lemon", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Jasmine Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Pork Filet", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Bulgogi Sauce", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": "Sesame, Soy, Wheat" },
+            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "1 TBSP", "Allergens": "Sesame" }
+        ]
+    },
+    {
+        "name": "Creamy Dijon Dill Chicken",
+        "ingredients": [
+            { "ingredient": "Potatoes", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Broccoli", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Dill", "2 Person": "1/4 oz", "4 Person": "1/4 oz", "Allergens": null },
+            { "ingredient": "Chicken Cutlets", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Dijon Mustard", "2 Person": "2 tsp", "4 Person": "4 tsp", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
+        ]
+    },
+    {
+        "name": "Street Cart-Style Chicken Bowls",
+        "ingredients": [
+            { "ingredient": "Turmeric", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null },
+            { "ingredient": "Jasmine Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Lemon", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Tomato", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Mayonnaise", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Garlic Powder", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Diced Chicken Thighs", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Shawarma Spice Blend", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Hot Sauce", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Pitas", "2 Person": 2, "4 Person": 4, "Allergens": "Sesame, Wheat" }
+        ]
+    }
+    ,
+    {
+        "name": "Crispy Buffalo-Spiced Chicken",
+        "ingredients": [
+            { "ingredient": "Carrots", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Potatoes", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Chicken Cutlets", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Fry Seasoning", "2 Person": "1 TBSP", "4 Person": "1 TBSP", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "4 1/2 TBSP", "4 Person": "9 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Panko Breadcrumbs", "2 Person": "1/4 Cup", "4 Person": "1/2 Cup", "Allergens": "Wheat" },
+            { "ingredient": "Frank's RedHot Original Seasoning Blend", "2 Person": "1/4 oz", "4 Person": "1/2 oz", "Allergens": null },
+            { "ingredient": "Blue Cheese Dressing", "2 Person": "1.5 oz", "4 Person": "3 oz", "Allergens": "Eggs, Milk" },
+            { "ingredient": "Hot Sauce", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null }
+        ]
+    },
+    {
+        "name": "Paprika Chicken In A Lemony Sauce",
+        "ingredients": [
+            { "ingredient": "Carrots", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Thyme", "2 Person": "1/4 oz", "4 Person": "1/4 oz", "Allergens": null },
+            { "ingredient": "Lemon", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Basmati Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Chicken Cutlets", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Paprika", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Pistachios", "2 Person": "1/2 oz", "4 Person": "1 oz", "Allergens": "Tree Nuts" }
+        ]
+    },
+    {
+        "name": "Sweet Chili Pork & Cabage Stir-Fry",
+        "ingredients": [
+            { "ingredient": "Jasmine Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Sweet Thai Chili Sauce", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+            { "ingredient": "Ponzu Sauce", "2 Person": "12 ml", "4 Person": "24 ml", "Allergens": "Fish, Soy, Wheat" },
+            { "ingredient": "Sweet Soy Glaze", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Sesame, Soy, Wheat" },
+            { "ingredient": "Rice Wine Vinegar", "2 Person": "5 tsp", "4 Person": "5 tsp", "Allergens": null },
+            { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Garlic Powder", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Red Cabbage and Carrot Mix", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Crispy Fried Onions", "2 Person": 1, "4 Person": 2, "Allergens": "Wheat" }
+        ]
+    }
+    ,
+    {
+        "name": "Homestyle Chicken & Biscuit Pot Pie",
+        "ingredients": [
+            { "ingredient": "Carrots", "2 Person": "6 oz", "4 Person": "12 oz", "Allergens": null },
+            { "ingredient": "Celery", "2 Person": "2.5 oz", "4 Person": "2.5 oz", "Allergens": null },
+            { "ingredient": "Onion", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+            { "ingredient": "Dried Thyme", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null },
+            { "ingredient": "Diced Chicken Thighs", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Flour", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Wheat" },
+            { "ingredient": "Chicken Stock Concentrates", "2 Person": "20 grams", "4 Person": "40 grams", "Allergens": null },
+            { "ingredient": "Cream Cheese", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Buttermilk Biscuits", "2 Person": "6 oz", "4 Person": "12 oz", "Allergens": "Wheat" }
+        ]
+    },
+    {
+        "name": "Shawarma-Spiced Beef & Golden Raisin Pitas",
+        "ingredients": [
+            { "ingredient": "Red Onion", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Lemon", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Ground Beef", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Ketchup", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Golden Raisins", "2 Person": "1 oz", "4 Person": "2 oz", "Allergens": null },
+            { "ingredient": "Shawarma Spice Blend", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Mayonnaise", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Hot Sauce", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Whole Wheat Pitas", "2 Person": 2, "4 Person": 4, "Allergens": "Sesame, Wheat" },
+            { "ingredient": "Blue Corn Tortilla Chips", "2 Person": "1.5 oz", "4 Person": "3 oz", "Allergens": "Sesame" }
+        ]
+    },
+    {
+        "name": "Penne With Pork Meatballs",
+        "ingredients": [
+            { "ingredient": "Button Mushrooms", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
+            { "ingredient": "Penne Pasta", "2 Person": "6 oz", "4 Person": "12 oz", "Allergens": "Wheat" },
+            { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Panko Breadcrumbs", "2 Person": "1/4 Cup", "4 Person": "1/2 Cup", "Allergens": "Wheat" },
+            { "ingredient": "Italian Seasoning", "2 Person": "1 TBSP", "4 Person": "1 TBSP", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "3 TBSP", "4 Person": "6 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Cream Cheese", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Mushroom Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Parmesan Cheese", "2 Person": "3 TBSP", "4 Person": "6 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Chili Flakes", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null }
+        ]
+    },
+    {
+        "name": "Crispy Kickin' Cayenne Chicken Cutlets",
+        "ingredients": [
+            { "ingredient": "Carrots", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "3 TBSP", "4 Person": "6 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Frank's Seasoning Blend", "2 Person": "1/4 oz", "4 Person": "1/2 oz", "Allergens": null },
+            { "ingredient": "Panko Breadcrumbs", "2 Person": "1/4 Cup", "4 Person": "1/2 Cup", "Allergens": "Wheat" },
+            { "ingredient": "Monterey Jack Cheese", "2 Person": "1/4 Cup", "4 Person": "1/2 Cup", "Allergens": "Milk" },
+            { "ingredient": "Chicken Cutlets", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Potatoes", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Honey", "2 Person": "2 tsp", "4 Person": "4 tsp", "Allergens": null }
+        ]
+    }
+    ,
+    {
+        "name": "Pork Banh Mi Burgers",
+        "ingredients": [
+            { "ingredient": "Potatoes", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Mini Cucumber", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Carrot", "2 Person": "3 oz", "4 Person": "6 oz", "Allergens": null },
+            { "ingredient": "Shallot", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Ginger", "2 Person": "1 Thumb", "4 Person": "2 Thumbs", "Allergens": null },
+            { "ingredient": "Cilantro", "2 Person": "1/4 oz", "4 Person": "1/2 oz", "Allergens": null },
+            { "ingredient": "Lime", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Ground Pork", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Sriracha", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Mayonnaise", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Eggs" },
+            { "ingredient": "Garlic Powder", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Ponzu Sauce", "2 Person": "18 ml", "4 Person": "36 ml", "Allergens": "Fish, Soy, Wheat" },
+            { "ingredient": "Potato Buns", "2 Person": 2, "4 Person": 4, "Allergens": "Eggs, Milk, Soy, Wheat" }
+        ]
+    },
+    {
+        "name": "Brown Sugar Bourbon Pork Chops",
+        "ingredients": [
+            { "ingredient": "Potatoes", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Broccoli", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
+            { "ingredient": "Apple", "2 Person": 1, "4 Person": 1, "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Pork Chops", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Brown Sugar Bourbon Seasoning", "2 Person": "10.8 g", "4 Person": "21.6 g", "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
+        ]
+    }
+    ,
+    {
+        "name": "Sizzling Spiced Salmon With Golden Rice",
+        "ingredients": [
+            { "ingredient": "Carrots", "2 Person": "9 oz", "4 Person": "18 oz", "Allergens": null },
+            { "ingredient": "Scallions", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Fajita Spice Blend", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": null },
+            { "ingredient": "Turmeric", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null },
+            { "ingredient": "White Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
+            { "ingredient": "Salmon", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": "Fish" },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
+        ]
+    }
+    ,
+    {
+        "name": "Pepper Jam Pork Fillet",
+        "ingredients": [
+            { "ingredient": "Sweet Potatoes", "2 Person": 2, "4 Person": 4, "Allergens": null },
+            { "ingredient": "Red Onion", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Kale", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
+            { "ingredient": "Pork Filet", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
+            { "ingredient": "Smoked Paprika", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
+            { "ingredient": "Red Pepper Jam", "2 Person": 1, "4 Person": 2, "Allergens": null },
+            { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
+            { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
+        ]
+    }
+  ]
+  
