@@ -29,10 +29,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-600 p-4">
+    <nav className="bg-blue-500 bg-opacity-80 border-2 border-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" legacyBehavior>
-          <a className="text-white font-bold text-xl">My Recipes App</a>
+          <a className="text-white font-bold text-xl">Grocery Guru</a>
         </Link>
         <div className="hidden md:flex space-x-4">
           <Link href="/recipes" legacyBehavior>
