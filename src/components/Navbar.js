@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { auth } from "../../firebaseConfig";
 import { onAuthStateChanged, signOut } from "firebase/auth";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   const [user, setUser] = useState(null);
@@ -28,12 +29,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-500 bg-opacity-80 border-2 p-4">
+    <nav className="bg-blue-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" legacyBehavior>
-          <a className="text-white font-bold text-xl">Grocery Guru</a>
+          <a className="text-white font-bold text-xl">My Recipes App</a>
         </Link>
-        <div className="flex space-x-4">
+        <div className="hidden md:flex space-x-4">
           <Link href="/recipes" legacyBehavior>
             <a className="text-white">Recipes</a>
           </Link>
@@ -44,7 +45,6 @@ const Navbar = () => {
           )}
           {user ? (
             <>
-              <span className="text-white">{user.email}</span>
               <button onClick={handleLogout} className="text-white">
                 Logout
               </button>
@@ -54,6 +54,9 @@ const Navbar = () => {
               <a className="text-white">Login</a>
             </Link>
           )}
+        </div>
+        <div className="md:hidden">
+          <HamburgerMenu />
         </div>
       </div>
     </nav>

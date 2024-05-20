@@ -63,7 +63,8 @@
             { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" },
             { "ingredient": "Soy Sauce", "2 Person": "2 TBSP", "4 Person": "4 TBSP", "Allergens": "Soy, Wheat" },
             { "ingredient": "Sriracha", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
-            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": "Sesame" }
+            { "ingredient": "Sesame Seeds", "2 Person": "1 TBSP", "4 Person": "2 TBSP", "Allergens": "Sesame" },
+            { "ingredient": "Shrimp", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": "Meat" }
         ]
     }
     ,
