@@ -1,7 +1,12 @@
+import { Suspense } from "react";
 import Signup from "../../components/Signup";
 
 const SignupPage = () => {
-  return <Signup />;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Signup />
+    </Suspense>
+  );
 };
 
 export default SignupPage;
