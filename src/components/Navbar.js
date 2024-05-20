@@ -1,0 +1,63 @@
+"use client";
+
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { auth } from "../../firebaseConfig";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+
+const Navbar = () => {
+  const [user, setUser] = useState(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    await signOut(auth);
+    router.push("/login");
+  };
+
+  return (
+    <nav className="bg-blue-500 bg-opacity-80 border-2 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <Link href="/" legacyBehavior>
+          <a className="text-white font-bold text-xl">Grocery Guru</a>
+        </Link>
+        <div className="flex space-x-4">
+          <Link href="/recipes" legacyBehavior>
+            <a className="text-white">Recipes</a>
+          </Link>
+          {user && (
+            <Link href="/weekly-grocery-list" legacyBehavior>
+              <a className="text-white">Weekly Grocery List</a>
+            </Link>
+          )}
+          {user ? (
+            <>
+              <span className="text-white">{user.email}</span>
+              <button onClick={handleLogout} className="text-white">
+                Logout
+              </button>
+            </>
+          ) : (
+            <Link href="/login" legacyBehavior>
+              <a className="text-white">Login</a>
+            </Link>
+          )}
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

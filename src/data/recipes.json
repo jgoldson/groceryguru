@@ -73,7 +73,7 @@
             "ingredients": [
                 { "ingredient": "Garlic", "2 Person": "1 Clove", "4 Person": "2 Cloves", "Allergens": null },
                 { "ingredient": "Scallions", "2 Person": 2, "4 Person": 2, "Allergens": null },
-                { "ingredient": "Carrot", "2 Person": "3 oz", "4 Person": "6 oz", "Allergens": null },
+                { "ingredient": "Carrots", "2 Person": "3 oz", "4 Person": "6 oz", "Allergens": null },
                 { "ingredient": "Peanuts", "2 Person": "1/2 oz", "4 Person": "1 oz", "Allergens": "Peanuts" },
                 { "ingredient": "Sweet Soy Glaze", "2 Person": "4 TBSP", "4 Person": "8 TBSP", "Allergens": "Sesame, Soy, Wheat" },
                 { "ingredient": "Pork Ramen Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
@@ -98,7 +98,8 @@
             { "ingredient": "Basmati Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
             { "ingredient": "Veggie Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
             { "ingredient": "Shredded Red Cabbage", "2 Person": "4 oz", "4 Person": "8 oz", "Allergens": null },
-            { "ingredient": "Sour Cream", "2 Person": "4 1/2 TBSP", "4 Person": "9 TBSP", "Allergens": "Milk" }
+            { "ingredient": "Sour Cream", "2 Person": "4 1/2 TBSP", "4 Person": "9 TBSP", "Allergens": "Milk" },
+            { "ingredient": "Diced Chicken Thighs", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null }
         ]
     }
     ,
