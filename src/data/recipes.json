@@ -382,7 +382,8 @@
             { "ingredient": "Mushroom Stock Concentrate", "2 Person": 1, "4 Person": 2, "Allergens": null },
             { "ingredient": "Parmesan Cheese", "2 Person": "3 TBSP", "4 Person": "6 TBSP", "Allergens": "Milk" },
             { "ingredient": "Chili Flakes", "2 Person": "1 tsp", "4 Person": "1 tsp", "Allergens": null }
-        ]
+        ],
+        "recipeLink": "/recipes/penne-with-pork-meatballs.pdf"
     },
     {
         "name": "Crispy Kickin' Cayenne Chicken Cutlets",
@@ -396,7 +397,8 @@
             { "ingredient": "Chicken Cutlets", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": null },
             { "ingredient": "Potatoes", "2 Person": "12 oz", "4 Person": "24 oz", "Allergens": null },
             { "ingredient": "Honey", "2 Person": "2 tsp", "4 Person": "4 tsp", "Allergens": null }
-        ]
+        ],
+        "recipeLink": "recipes/crispy-kickin-cayenne-chicken-cutlets.pdf"
     }
     ,
     {
@@ -415,7 +417,8 @@
             { "ingredient": "Garlic Powder", "2 Person": "1 tsp", "4 Person": "2 tsp", "Allergens": null },
             { "ingredient": "Ponzu Sauce", "2 Person": "18 ml", "4 Person": "36 ml", "Allergens": "Fish, Soy, Wheat" },
             { "ingredient": "Potato Buns", "2 Person": 2, "4 Person": 4, "Allergens": "Eggs, Milk, Soy, Wheat" }
-        ]
+        ],
+        "recipeLink": "/recipes/pork-banh-mi-burgers.pdf"
     },
     {
         "name": "Brown Sugar Bourbon Pork Chops",
@@ -428,7 +431,8 @@
             { "ingredient": "Brown Sugar Bourbon Seasoning", "2 Person": "10.8 g", "4 Person": "21.6 g", "Allergens": null },
             { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
             { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
-        ]
+        ],
+        "recipeLink": "/recipes/brown-sugar-bourban-pork.pdf"
     }
     ,
     {
@@ -441,7 +445,8 @@
             { "ingredient": "White Rice", "2 Person": "1/2 Cup", "4 Person": "1 Cup", "Allergens": null },
             { "ingredient": "Salmon", "2 Person": "10 oz", "4 Person": "20 oz", "Allergens": "Fish" },
             { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
-        ]
+        ],
+        "recipeLink": "/recipes/sizzling-spiced-salmon.pdf"
     }
     ,
     {
@@ -455,7 +460,8 @@
             { "ingredient": "Red Pepper Jam", "2 Person": 1, "4 Person": 2, "Allergens": null },
             { "ingredient": "Chicken Stock Concentrate", "2 Person": "10 grams", "4 Person": "20 grams", "Allergens": null },
             { "ingredient": "Sour Cream", "2 Person": "1 1/2 TBSP", "4 Person": "3 TBSP", "Allergens": "Milk" }
-        ]
+        ],
+        "recipeLink": "/recipes/pepper-jam-pork-filet.pdf"
     }
   ]
   

@@ -152,6 +152,7 @@ const RecipesPage = ({ params }) => {
       recipes: selectedRecipes.map((recipe) => ({
         name: recipe.name,
         servings,
+        recipeLink: recipe.recipeLink,
       })),
     });
 
@@ -184,6 +185,7 @@ const RecipesPage = ({ params }) => {
                 recipe={recipe}
                 servings={servings}
                 onRefresh={() => handleRefreshRecipe(index)}
+                isRecipeDirectory={false}
               />
             ))}
           </div>

@@ -115,10 +115,19 @@ const WeeklyGroceryListPage = () => {
           <ul className="list-disc pl-5">
             {finalizedRecipes.map((recipe, index) => (
               <li key={index} className="mb-2">
-                {recipe.name} - {recipe.servings} servings
+                <a
+                  href={recipe.recipeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  {recipe.name}
+                </a>{" "}
+                - {recipe.servings} servings
               </li>
             ))}
           </ul>
+
           <h2 className="text-2xl font-bold mt-8 mb-4">Grocery List</h2>
           <ul className="list-disc pl-5">
             {Object.entries(finalizedGroceryList).map(
