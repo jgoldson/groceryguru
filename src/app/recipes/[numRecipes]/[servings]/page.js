@@ -6,6 +6,7 @@ import { auth, db } from "../../../../../firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 import { collection, doc, setDoc, addDoc } from "firebase/firestore";
 import RecipeCard from "../../../../components/RecipeCard";
+import RecipeModal from "../../../../components/RecipeModal";
 import recipes from "../../../../data/recipes.json";
 
 const getRandomRecipes = (num, exclude = []) => {
@@ -74,6 +75,8 @@ const RecipesPage = ({ params }) => {
   const [groceryList, setGroceryList] = useState({});
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false); // Loading state
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentRecipeIndex, setCurrentRecipeIndex] = useState(null);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -127,6 +130,23 @@ const RecipesPage = ({ params }) => {
     setGroceryList(calculatedGroceryList);
   };
 
+  const handleSelectRecipe = (index) => {
+    setCurrentRecipeIndex(index);
+    setIsModalOpen(true);
+  };
+
+  const handleRecipeSelection = (recipe) => {
+    const newSelectedRecipes = [...selectedRecipes];
+    newSelectedRecipes[currentRecipeIndex] = recipe;
+    setSelectedRecipes(newSelectedRecipes);
+    const calculatedGroceryList = calculateGroceryList(
+      newSelectedRecipes,
+      servings
+    );
+    setGroceryList(calculatedGroceryList);
+    setIsModalOpen(false);
+  };
+
   const handleFinalizeList = async () => {
     if (!user) {
       localStorage.setItem("selectedRecipes", JSON.stringify(selectedRecipes));
@@ -147,76 +167,83 @@ const RecipesPage = ({ params }) => {
     const userDoc = doc(db, "users", user.uid);
     const groceryListsCollection = collection(userDoc, "GroceryLists");
 
-    const newGroceryListDoc = await addDoc(groceryListsCollection, {
+    const newGroceryList = {
       date: new Date(),
       recipes: selectedRecipes.map((recipe) => ({
         name: recipe.name,
         servings,
-        recipeLink: recipe.recipeLink,
       })),
-    });
+    };
 
-    const groceryListCollection = collection(newGroceryListDoc, "groceryList");
+    const groceryListDoc = await addDoc(groceryListsCollection, newGroceryList);
+
+    const groceryListItemsCollection = collection(
+      groceryListDoc,
+      "groceryList"
+    );
+
     for (const [ingredient, info] of Object.entries(finalizedList)) {
-      await setDoc(doc(groceryListCollection, ingredient), info);
+      await setDoc(doc(groceryListItemsCollection, ingredient), info);
     }
 
-    localStorage.removeItem("selectedRecipes");
-    localStorage.removeItem("groceryList");
     setLoading(false); // Set loading state to false
+
     router.push("/weekly-grocery-list");
   };
 
   return (
     <div className="p-8 bg-gradient-to-r from-blue-100 to-blue-300">
-      {loading ? ( // Show loading screen if loading state is true
-        <div className="min-h-screen flex items-center justify-center">
-          <div className="text-2xl font-bold">
-            Saving your list, please wait...
-          </div>
+      <div className="bg-white p-8 border-2 border-gray-200 rounded-lg">
+        <h1 className="text-2xl font-bold mb-4">Selected Recipes</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {selectedRecipes.map((recipe, index) => (
+            <RecipeCard
+              key={index}
+              recipe={recipe}
+              servings={servings}
+              onRefresh={() => handleRefreshRecipe(index)}
+              onSelectRecipe={() => handleSelectRecipe(index)}
+            />
+          ))}
         </div>
-      ) : (
-        <div className="bg-white p-8 border-2 border-gray-200 rounded-lg">
-          <h1 className="text-2xl font-bold mb-4">Selected Recipes</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {selectedRecipes.map((recipe, index) => (
-              <RecipeCard
-                key={index}
-                recipe={recipe}
-                servings={servings}
-                onRefresh={() => handleRefreshRecipe(index)}
-                isRecipeDirectory={false}
-              />
-            ))}
-          </div>
 
-          <h2 className="text-xl font-bold mt-8 mb-4">Grocery List</h2>
-          <ul className="list-disc pl-5">
-            {Object.entries(groceryList).map(([ingredient, info], index) => (
-              <li key={index} className="mb-2 flex items-center">
-                <input
-                  type="checkbox"
-                  checked={info.checked}
-                  onChange={() => handleCheckboxChange(ingredient)}
-                  className="mr-2"
-                />
-                {ingredient}: {info.quantity}
-                {info.allergens && (
-                  <span className="text-red-600">
-                    {" "}
-                    - Allergens: {info.allergens}
-                  </span>
-                )}
-              </li>
-            ))}
-          </ul>
-          <button
-            onClick={handleFinalizeList}
-            className="bg-blue-500 text-white p-2 rounded mt-4"
-          >
-            {user ? "Finalize List" : "Login To Save Grocery List"}
-          </button>
-        </div>
+        <h2 className="text-xl font-bold mt-8 mb-4">Grocery List</h2>
+        <ul className="list-disc pl-5">
+          {Object.entries(groceryList).map(([ingredient, info], index) => (
+            <li key={index} className="mb-2 flex items-center">
+              <input
+                type="checkbox"
+                checked={info.checked}
+                onChange={() => handleCheckboxChange(ingredient)}
+                className="mr-2"
+              />
+              {ingredient}: {info.quantity}
+              {info.allergens && (
+                <span className="text-red-600">
+                  {" "}
+                  - Allergens: {info.allergens}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+        <button
+          onClick={handleFinalizeList}
+          className="bg-blue-500 text-white p-2 rounded mt-4"
+        >
+          {loading
+            ? "Saving..."
+            : user
+            ? "Finalize List"
+            : "Login to Save List"}
+        </button>
+      </div>
+      {isModalOpen && (
+        <RecipeModal
+          recipes={recipes}
+          onClose={() => setIsModalOpen(false)}
+          onSelect={handleRecipeSelection}
+        />
       )}
     </div>
   );
